@@ -1,0 +1,36 @@
+.landing-container {
+  background-image: url("../images/head.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+  height: auto;
+}
+.spacer {
+  width: 100vw;
+  height: 70vh;
+}
+@media (min-width: 768px) {
+  .mq {
+    width: 30vw;
+  }
+  .spacer {
+    width: 70vw;
+  }
+}
+
+.widen {
+  width: 90%;
+}
+@media (max-width: 700px) {
+  .widen {
+    width: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  .smol-hid {
+    display: none;
+  }
+}

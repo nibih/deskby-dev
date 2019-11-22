@@ -2,12 +2,13 @@ import React from "react"
 import Header from "./Header"
 import { Form, Dropdown, Button } from "react-bootstrap"
 import Footer from "./Footer"
+import SEO from "./SEO"
 
 export default ({ children }) => (
   <div>
     <div className="landing-container">
       <Header />
-
+      <SEO />
       <div className="p-md-5 p-2 spacer mx-auto">
         <div className="container my-5">
           <h1 className="text-white font-weight-light my-auto text-center m-auto">
